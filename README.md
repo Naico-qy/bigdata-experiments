@@ -9,7 +9,7 @@
 
 | 实验 | 内容 | 路径 |
 |------|------|------|
-| 实验零 | Hadoop伪分布式安装与配置 | `exp0-hadoop-install/` |
+| 实验零 | Hadoop伪分布式安装与配置 |  |
 | 实验一 | HDFS Shell命令操作 | `exp1-hdfs-shell/` |
 | 实验二 | Java HDFS API编程 | `exp2-hdfs-api/` |
 | 实验三 | MapReduce编程（去重/排序/祖孙关系） | `exp3-mapreduce/` |
