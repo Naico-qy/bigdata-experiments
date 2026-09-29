@@ -31,14 +31,6 @@
 - 输出: 12条祖孙关系记录
 - 命令: `hadoop jar grandchild.jar GrandChild /user/hadoop/exp3/family_input /user/hadoop/exp3/grandchild_output`
 
-## 常见问题与解决
-
-1. **HDFS未启动**: `start-dfs.sh && start-yarn.sh`
-2. **Safe Mode**: 等待NameNode自动退出或 `hdfs dfsadmin -safemode leave`
-3. **输出目录已存在**: `hdfs dfs -rm -r <输出路径>` 后重跑
-4. **输入格式不匹配**: 确保每个MapReduce任务使用独立的输入目录
-5. **GitHub Token**: 首次push需要Personal Access Token替代密码
-
 ## 技术栈
 
 - Hadoop 3.3.5
